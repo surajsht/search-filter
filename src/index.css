@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  position: relative;
+  text-align: center;
+}
+
+.suggestion-block {
+  position: absolute;
+  inset: 30px 0 auto 0;
+  height: auto;
+  width: 400px;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.suggestion-block li {
+  list-style: none;
+  background-color: #fff;
+  padding: 16px;
+  margin: 8px;
+}
+
+.display-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.container {
+  display: flex;
+}
+
+.filter-sec {
+  width: 180px;
+}
+
+.content-sec {
+  flex-grow: 1;
+  margin-left: 24px;
+}
